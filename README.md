@@ -9,13 +9,13 @@ Due to probability of not changing DST on IRST since 2022, it's needed to change
 git clone https://github.com/mhnmoa/Tehran-noDST-timezone.git
 ```
 
-2- copy Tehran-noDST file into /usr/share/zoneinfo/Asia/Tehran-noDST
+2- Copy Tehran-noDST file into /usr/share/zoneinfo/Asia/Tehran-noDST
 
 ```
 cp Tehran-noDST-timezone/Tehran-noDST /usr/share/zoneinfo/Asia/Tehran-noDST
 ```
 
-3- set time zone
+3- Set time zone
 
 ```
 timedatectl set-timezone Asia/Tehran-noDST
